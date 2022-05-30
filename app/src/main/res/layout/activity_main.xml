@@ -32,6 +32,9 @@
         android:orientation="horizontal">
 
         <EditText
+            android:paddingLeft="5dp"
+            android:hint="Search"
+            android:textColorHint="@color/black"
             android:background="@drawable/border"
             android:drawableEnd="@drawable/ic_baseline_search_24"
             android:layout_width="match_parent"

@@ -30,20 +30,18 @@ class DataAdapter(private var dataList: List<DataResponse>, private val context:
         holder.title.text = dataModel.title
         holder.desc.text = dataModel.description
         holder.earn.text = dataModel.earning
-//        Glide.with(context).load(dataModel.urlToImage).into(holder.logo)
+
     }
 
     class ViewHolder(itemLayoutView: View) : RecyclerView.ViewHolder(itemLayoutView) {
-        lateinit
+
         var desc: TextView
 
-        lateinit
+
         var title: TextView
 
-        lateinit
-        var logo: ImageView
 
-        lateinit
+        var logo: ImageView
 
         var earn: TextView
 
